@@ -1,0 +1,60 @@
+header{
+    background-image: url("background1.jpg");
+    border: 3px black groove;
+    border-radius:20px ;
+    box-shadow: 6px 6px 6px grey;
+    padding-top: 0.1em;
+    padding-bottom: 0.1em;
+    font-family:"Arial Black",Arial,Impact,Serif;
+    color: white;
+    margin-top: 1px;
+
+}
+.poste{
+    text-align: right;
+    margin-top: 5px;
+}
+section {
+    background-image: url("background3.jpg");
+    border: 3px black groove;
+    border-radius: 20px;
+    box-shadow: 6px 6px 6px grey;
+    font-family:verdana,Arial, Serif;
+    font-size: 0.8em;
+}
+fieldset{
+    background-image: url("background1.jpg");
+    border: 3px black groove;
+    border-radius:20px ;
+    box-shadow: 6px 6px 6px grey;
+}
+.telephone{
+    width: 50px;
+    height: 50px;
+
+}
+img{
+    width: 190px;
+    height: 250px;
+    border-radius: 200px 200px 200px 200px;
+    margin-top: 1px;
+
+
+}
+h1,h2{
+    text-align: left;
+
+}
+h1{
+    font-size: large;
+}
+h2{
+    font-size: medium;
+}
+#photo {
+    text-align: left;
+
+
+}
+
+

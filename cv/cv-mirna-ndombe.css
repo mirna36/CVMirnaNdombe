@@ -1,18 +1,83 @@
+*{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
 header{
+
     background-image: url("background1.jpg");
     border: 3px black groove;
     border-radius:20px ;
     box-shadow: 6px 6px 6px grey;
-    padding-top: 0.1em;
-    padding-bottom: 0.1em;
     font-family:"Arial Black",Arial,Impact,Serif;
-    color: white;
-    margin-top: 1px;
+    color: floralwhite;
+    font-weight: bolder;
+
+
 
 }
+.photo{
+    display: inline;
+    display: flex;
+    flex-direction: column;
+    width: 190px;
+    border-radius: 200px 200px 200px 200px;
+    margin-top: 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-right:50px ;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    
+
+
+}
+.div-presentation{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.Présentation{
+    text-align: left;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 10px 5px 20px black;
+}
+
+h1{
+    font-size:x-large;
+}
+h2{
+    font-size: large;
+}
 .poste{
-    text-align: right;
-    margin-top: 5px;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 15px 20px 20px black;
+
+}
+.poste ul {
+    list-style-type: none;
+    font-weight:normal;
+    font-family: 'Poppins', sans-serif;
+    color: blanchedalmond;
+}
+.langues{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 15px 20px 20px black;
+}
+.langues ul{
+    list-style-type: none;
+    font-weight:normal;
+    font-family: 'Poppins', sans-serif;
+    color: blanchedalmond;
 }
 section {
     background-image: url("background3.jpg");
@@ -21,6 +86,7 @@ section {
     box-shadow: 6px 6px 6px grey;
     font-family:verdana,Arial, Serif;
     font-size: 0.8em;
+    text-align: justify;
 }
 fieldset{
     background-image: url("background1.jpg");
@@ -31,30 +97,36 @@ fieldset{
 .telephone{
     width: 50px;
     height: 50px;
+    float: left;
+
 
 }
-img{
-    width: 190px;
-    height: 250px;
+.PC {
+    width: 250px;
+    height: 200px;
     border-radius: 200px 200px 200px 200px;
     margin-top: 1px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding-right:50px ;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    float: left;
+
+}
+legend{
+    font-family: 'Poppins', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.contact{
+    text-align:center;
 
 
 }
-h1,h2{
-    text-align: left;
-
-}
-h1{
-    font-size: large;
-}
-h2{
-    font-size: medium;
-}
-#photo {
-    text-align: left;
 
 
-}
+
 
 

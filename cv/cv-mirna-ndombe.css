@@ -1,14 +1,7 @@
-*{
-    margin-left: 10px;
-    margin-right: 10px;
-    margin-top: 0;
-    padding: 0;
-    text-decoration: none;
-    box-sizing: border-box;
-}
+
 
 header{
-
+    box-sizing: border-box;
     background-image: url("background1.jpg");
     border: 3px black groove;
     border-radius:20px ;
@@ -17,35 +10,19 @@ header{
     color: floralwhite;
     font-weight: bolder;
 
-
-
 }
 .photo{
-    display: inline;
-    display: flex;
-    flex-direction: column;
-    width: 190px;
+
+    width: 200px;
+    height: 285px;
     border-radius: 200px 200px 200px 200px;
-    margin-top: 1px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding-right:50px ;
-    padding-left: 50px;
-    padding-bottom: 10px;
-    padding-top: 10px;
-
-    
-
-
+    float: left;
 }
-.div-presentation{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-}
+
 .Présentation{
-    text-align: left;
-    text-align: center;
+   display: flex;
+    width: 50%;
+    justify-content: flex-end;
     font-family: 'Poppins', sans-serif;
     text-shadow: 10px 5px 20px black;
 }
@@ -53,11 +30,16 @@ header{
 h1{
     font-size:x-large;
 }
-h2{
+h1 ul{
     font-size: large;
 }
+
 .poste{
-    text-align: center;
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+    align-items: center;
+    align-content: center;
     font-family: 'Poppins', sans-serif;
     text-shadow: 15px 20px 20px black;
 
@@ -69,7 +51,11 @@ h2{
     color: blanchedalmond;
 }
 .langues{
-    text-align: center;
+    display: flex;
+    width: 60%;
+    justify-content: flex-end;
+    align-content: center;
+    align-items: center;
     font-family: 'Poppins', sans-serif;
     text-shadow: 15px 20px 20px black;
 }
@@ -80,6 +66,7 @@ h2{
     color: blanchedalmond;
 }
 section {
+    box-sizing: border-box;
     background-image: url("background3.jpg");
     border: 3px black groove;
     border-radius: 20px;
@@ -88,42 +75,43 @@ section {
     font-size: 0.8em;
     text-align: justify;
 }
-fieldset{
-    background-image: url("background1.jpg");
-    border: 3px black groove;
-    border-radius:20px ;
-    box-shadow: 6px 6px 6px grey;
+.competence{
+    display: flex;
 }
-.telephone{
-    width: 50px;
-    height: 50px;
-    float: left;
-
-
+.formation{
+    display: flex;
+}
+.experiencepro{
+    display: flex;
 }
 .PC {
-    width: 250px;
+    width: 250px
     height: 200px;
     border-radius: 200px 200px 200px 200px;
     margin-top: 1px;
     margin-left: 50px;
     margin-right: 50px;
-    padding-right:50px ;
-    padding-left: 50px;
-    padding-bottom: 10px;
-    padding-top: 10px;
     float: left;
 
 }
+fieldset{
+    box-sizing: border-box;
+    background-image: url("background1.jpg");
+    border: 3px black groove;
+    border-radius:20px ;
+    box-shadow: 6px 6px 6px grey;
+    margin: 0px;
+    padding: 0px;
+}
+
 legend{
     font-family: 'Poppins', sans-serif;
     font-size: 50px;
     font-weight: bolder;
+    padding: 0px;
 }
 .contact{
     text-align:center;
-
-
 }
 
 

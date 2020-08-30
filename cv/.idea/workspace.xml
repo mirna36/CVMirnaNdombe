@@ -39,21 +39,6 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -63,7 +48,12 @@
       <option name="presentableId" value="Default" />
       <updated>1598376682765</updated>
       <workItem from="1598376687366" duration="13758000" />
-      <workItem from="1598463958645" duration="12645000" />
+      <workItem from="1598463958645" duration="13003000" />
+      <workItem from="1598556625267" duration="1531000" />
+      <workItem from="1598612502546" duration="1959000" />
+      <workItem from="1598717892200" duration="19921000" />
+      <workItem from="1598738774094" duration="13000" />
+      <workItem from="1598785919876" duration="2199000" />
     </task>
     <servers />
   </component>

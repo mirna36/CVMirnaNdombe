@@ -2,7 +2,9 @@
 header {
     box-sizing: border-box;
     border: 3px lightgrey groove;
-    background-image: url("background1.jpg");
+    background-image: url("computeur.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
     border-radius: 20px;
     box-shadow: 6px 6px 6px grey;
     font-family: "Arial Black", Arial, Impact, Serif;
@@ -16,6 +18,8 @@ section {
     list-style-type: none;
     box-sizing: border-box;
     background-image: url("background3.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 3px lightgrey groove;
     border-radius: 20px;
     box-shadow: 6px 6px 6px grey;
@@ -42,7 +46,7 @@ section {
 .Présentation {
 
     width: 80%;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Comic Sans MS",'Poppins', sans-serif;
     text-shadow: 10px 5px 20px black;
 }
 
@@ -53,19 +57,20 @@ h1 {
 
 h1 ul {
     font-weight: normal;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Comic Sans MS",'Poppins', sans-serif;
     color: blanchedalmond;
 }
 
 .langues {
     display: flex;
     flex-direction: column;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Comic Sans MS",'Poppins', sans-serif;
     text-shadow: 15px 20px 20px black;
     margin-right: 30px;
 }
 h3{
     text-align: center;
+
 }
 
 .progresscircle {
@@ -151,7 +156,7 @@ h3{
     text-transform: uppercase;
     transition: 0.5s;
     font-weight: normal;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Comic Sans MS",'Poppins', sans-serif;
     color: blanchedalmond;
 }
 
@@ -185,7 +190,7 @@ section .competence li{
     padding-bottom: 50px;
     text-align: center;
     font-family: "Comic Sans MS",Arial, Verdana, Serif;
-    color: dimgrey;
+    color:dimgrey;
 }
 section .formation ul{
     font-size: large;
@@ -220,7 +225,9 @@ section .experiencepro li{
 
 fieldset {
     box-sizing: border-box;
-    background-image: url("background1.jpg");
+    background-image: url("computeur.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 3px lightgrey groove;
     border-radius: 20px;
     box-shadow: 6px 6px 6px grey;
